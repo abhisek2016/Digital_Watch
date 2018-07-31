@@ -74,8 +74,9 @@ int main()
    }
    system("cls");
    printf("         ::::::---*MY Digital Watch*---:::::            \n");
-   printf("\nDATE:");printf("%d",date);printf(":");printf("%d",month);printf(":");printf("%d",year);
-printf("\n Time:");
-   printf("%d",h);printf(":");printf("%d",m);printf(":");printf("%d\n\n",s);printf("                                            ");printf("Abhisek Tiwari");
+   printf("\nDate:");printf("%d",date);printf(":");printf("%d",month);printf(":");printf("%d",year);
+   printf("\nTime:");
+   printf("%d",h);printf(":");printf("%d",m);printf(":");printf("%d\n\n",s);
+   goto ask;
 
 }
